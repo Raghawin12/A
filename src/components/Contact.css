@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  background-color: white; /* Optional: Add a background color for contrast */
+}
+
+form {
+  background-color: lightblue;
+  padding: 1.5rem; /* Reduced padding for a smaller form */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px; /* Reduced maximum width for the form */
+}
+
+.form-group {
+  margin-bottom: 1rem; /* Reduced spacing between form groups */
+}
+
+label {
+  font-weight: bold;
+  font-size: 1rem; /* Reduced label font size */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem; /* Reduced padding for smaller input boxes */
+  font-size: 1rem; /* Reduced font size for text in inputs */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px; /* Reduced default height for the textarea */
+}
+
+button {
+  padding: 0.5rem 1rem; /* Reduced button size */
+  font-size: 1rem; /* Reduced font size for the button text */
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

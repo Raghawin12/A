@@ -1,0 +1,38 @@
+/* Ensure nav is at the top-right */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Flexbox styles for list */
+nav ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-size: 1rem; /* Adjust the font size */
+  font-weight: bold; /* Make the text bold */
+  list-style-type: none; /* Removes default list styling */
+  text-transform: uppercase; /* Optional: Makes text uppercase */
+}
+
+nav li a {
+  color: rgb(20, 196, 227); /* Set link text color */
+  text-decoration: none; /* Removes underline */
+  padding: 0.5rem 1rem; /* Add padding around the links */
+  display: inline-block; /* Ensure the link takes up the padding space */
+}
+
+nav li a:hover {
+  background-color: #333; /* Adds a background on hover */
+  color: #f5f5f5; /* Changes text color on hover */
+}

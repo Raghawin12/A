@@ -1,0 +1,25 @@
+.grid-section {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid columns */
+    gap: 1.5rem; /* Adds space between both rows and columns */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px; 
+    justify-content: center;
+  /* Limit the max width for large screens */
+  }
+  
+  .grid-item {
+    background-color: #2196F3;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center text inside the grid items */
+  }
+  
